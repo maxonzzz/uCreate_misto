@@ -1,0 +1,171 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 32.9rem;
+}.nav-li-HCr {
+  box-sizing: border-box;
+  padding-bottom: 5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 3rem;
+}
+.nav-li-HCr .frame-6-Yea {
+  margin-bottom: 3.5rem;
+  width: 100%;
+  height: 14.3rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6c5fc5;
+  border-radius: 3rem 3rem 0 0;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA {
+  margin: 0rem 6.45rem 0rem 6.35rem;
+  box-sizing: border-box;
+  padding: 0.4rem;
+  width: calc(100% - 12.8rem);
+  overflow: hidden;
+  position: relative;
+  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .sale-g8W {
+  width: 100%;
+  height: 2.3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .beauty-oD8 {
+  width: 14.8rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .law-uX4 {
+  box-sizing: border-box;
+  padding: 0 0.0409rem;
+  width: 7.2rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .shops-REW {
+  width: 10.5rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .facilities-iDc {
+  width: 8.9rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .business-boC {
+  width: 14.7rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .masters-6zr {
+  width: 9.3rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .fun-39Q {
+  width: 8.3rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .guide-yHx {
+  width: 9.8rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-li-HCr .nav-li-arA .coop-Jb8 {
+  width: 10.5rem;
+  height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3722222646;
+  color: #1e1e1e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
