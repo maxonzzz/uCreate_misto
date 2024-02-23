@@ -14,7 +14,22 @@ input {
 }
 body {
   width: 37.5rem;
-}.item--mTc {
+}
+
+a {
+  text-decoration: none;
+}
+
+.auto-group-jqan-RGS a {
+  color: #141221;
+  transition: color .3s linear;
+}
+
+.auto-group-jqan-RGS a:hover {
+  color: #8378D5;
+}
+
+.item--mTc {
   box-sizing: border-box;
   padding-top: 1rem;
   width: 100%;
@@ -807,7 +822,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -818,7 +832,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -828,7 +841,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -839,7 +851,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
