@@ -6,9 +6,6 @@ html {
 	margin: 0;
 	padding: 0;
 }
-ul, li {
-	list-style: none;
-}
 input {
 	border: none;
 }
@@ -84,6 +81,19 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
+.item--TYi .main-g46 .content-iWa .heading-and-text-suG ul {
+  margin-left: 25px;
+  margin-bottom: 12px;
+}
+.item--TYi .main-g46 .content-iWa .heading-and-text-suG ul {
+  max-width: 132.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #667084;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
 .item--TYi .main-g46 .content-iWa .heading-and-text-suG .author-1En {
   margin-bottom: 1.2rem;
   font-size: 1.4rem;
@@ -105,7 +115,7 @@ body {
   flex-shrink: 0;
 }
 .item--TYi .main-g46 .content-iWa .heading-and-text-suG .supporting-text-Zfc {
-  margin-bottom: 2.8rem;
+  margin-bottom: 2rem;
   max-width: 64.9rem;
   font-size: 1.6rem;
   font-weight: 400;
@@ -130,13 +140,14 @@ body {
   background-color: #8378d5;
   border-radius: 1rem;
   flex-shrink: 0;
+  border: #8378d5;
 }
 .item--TYi .main-g46 .content-iWa .btn-primary-F2e .item--PuY {
   width: 23.5rem;
   height: 2rem;
   position: absolute;
-  left: 4.5rem;
-  top: 1.7rem;
+  left: 2.5rem;
+  top: 1.5rem;
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.4285714286;
@@ -189,40 +200,9 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.item--TYi .footer-y74 .list-p7g .items-a6r .item-link--XXt {
+.item--TYi .footer-y74 .list-p7g .items-a6r a {
+  text-decoration: none;
   margin-right: 2.5rem;
-  display: flex;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.item--TYi .footer-y74 .list-p7g .items-a6r .item-link-cookie-1xr {
-  margin-right: 4rem;
-  display: flex;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.item--TYi .footer-y74 .list-p7g .items-a6r .item-link--81t {
-  margin-right: 2.1rem;
-  display: flex;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.item--TYi .footer-y74 .list-p7g .items-a6r .link--qBC {
   display: flex;
   font-size: 1.4rem;
   font-weight: 400;
