@@ -14,7 +14,41 @@ input {
 }
 body {
   width: 144rem;
-}.item-1440-jBC {
+}
+
+a {
+  text-decoration: none;
+}
+
+.frame-1-jkr a {
+  position: relative;
+  color: #1E1E1E;
+  transition: color .3s linear;
+}
+
+.frame-1-jkr a:hover {
+  color: #8378D5;
+}
+
+.frame-1-jkr a::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  height: 6px;
+  width: 100%;
+  background: #8378D5;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transition: transform 0.2s linear;
+}
+
+.frame-1-jkr a:hover::before {
+  transform: scaleX(1);
+}
+
+
+
+.item-1440-jBC {
   box-sizing: border-box;
   padding-top: 3rem;
   width: 100%;
@@ -55,7 +89,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -65,7 +98,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -75,7 +107,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -86,7 +117,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -96,7 +126,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -106,7 +135,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -116,7 +144,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -126,7 +153,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -135,7 +161,6 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -336,8 +361,9 @@ body {
   margin-right: 0.05rem;
   box-sizing: border-box;
   padding: 1.1rem 1.8rem;
+  text-align: start;
   width: calc(100% - 0.05rem);
-  height: 5.8rem;
+  /* height: 5.8rem; */
   background-color: #f5f9fa;
   flex-shrink: 0;
 }
@@ -458,7 +484,7 @@ body {
   box-sizing: border-box;
   padding: 1.1rem 1.8rem;
   width: 100%;
-  height: 5.8rem;
+  /* height: 5.8rem; */
   background-color: #f5f9fa;
   flex-shrink: 0;
 }
@@ -583,7 +609,7 @@ body {
   box-sizing: border-box;
   padding: 1.1rem 1.8rem;
   width: calc(100% - 0.05rem);
-  height: 5.8rem;
+  /* height: 5.8rem; */
   background-color: #f5f9fa;
   flex-shrink: 0;
 }
@@ -705,7 +731,7 @@ body {
   box-sizing: border-box;
   padding: 1.1rem 1.8rem;
   width: 100%;
-  height: 5.8rem;
+  /* height: 5.8rem; */
   background-color: #f5f9fa;
   flex-shrink: 0;
 }
@@ -805,7 +831,14 @@ body {
   background-color: #6fd796;
   border-radius: 1rem;
   flex-shrink: 0;
+  transition: all .3s ease;
 }
+
+.item-1440-jBC .divload-pDt .container-LRc .cta-Bx2 .info-PYJ .pad-QiJ .link-9JW:hover {
+  background-color: #4be084;
+}
+
+
 .item-1440-jBC .divload-pDt .container-LRc .cta-Bx2 .earnpng-zpv {
   width: 61.75rem;
   height: 45.2rem;
@@ -1221,6 +1254,16 @@ body {
   position: relative;
   border-radius: 1.6rem;
 }
+
+.items-5yx a {
+  color: #141221;
+  transition: color .3s linear;
+}
+
+.items-5yx a:hover {
+  color: #8378D5;
+}
+
 .item-1440-jBC .divload-pDt .auto-group-5rv6-Jqc .prop-gZt .news-aHt .newslist-item-jkS .pst-img-gQn .b8e7ded58fd439062915jpg-zwG {
   width: 42rem;
   height: 26.402rem;
@@ -1409,7 +1452,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -1420,7 +1462,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -1431,7 +1472,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -1441,7 +1481,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
