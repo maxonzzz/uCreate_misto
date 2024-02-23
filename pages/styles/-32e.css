@@ -1,20 +1,52 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
   width: 144rem;
-}.item--3XL {
+}
+
+a {
+  text-decoration: none;
+}
+
+.frame-1-mre a {
+  position: relative;
+  color: #1E1E1E;
+  transition: color .3s linear;
+}
+
+.frame-1-mre a:hover {
+  color: #8378D5;
+}
+
+.frame-1-mre a::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  height: 6px;
+  width: 100%;
+  background: #8378D5;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transition: transform 0.2s linear;
+}
+
+.frame-1-mre a:hover::before {
+  transform: scaleX(1);
+}
+
+.item--3XL {
   box-sizing: border-box;
   padding-top: 3rem;
   width: 100%;
@@ -55,8 +87,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -65,8 +96,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -75,8 +105,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -86,8 +115,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -96,8 +124,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -106,8 +133,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -116,8 +142,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -126,8 +151,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -135,8 +159,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3722222646;
-  color: #1e1e1e;
-  font-family: Montserrat, 'Source Sans Pro';
+  font-family: Montserrat, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -150,7 +173,8 @@ body {
   display: flex;
   flex-direction: column;
   border: solid 0.1rem #eaecf0;
-  box-shadow: 0 0.2rem 0.4rem rgba(16, 24, 40, 0.0599999987), 0 0.4rem 0.8rem rgba(16, 24, 40, 0.1000000015);
+  box-shadow: 0 0.2rem 0.4rem rgba(16, 24, 40, 0.0599999987),
+    0 0.4rem 0.8rem rgba(16, 24, 40, 0.1000000015);
   background-color: #ffffff;
   border-radius: 0.8rem;
   flex-shrink: 0;
@@ -163,7 +187,7 @@ body {
   font-weight: 600;
   line-height: 1.5;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   background-color: #ffffff;
   flex-shrink: 0;
@@ -192,7 +216,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #ffffff;
@@ -207,7 +231,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #ffffff;
@@ -222,7 +246,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #ffffff;
@@ -237,7 +261,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #ffffff;
@@ -252,7 +276,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #ffffff;
@@ -290,7 +314,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-biW .table-cell-ZSN {
@@ -308,7 +332,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-biW .table-cell-D18 {
   box-sizing: border-box;
@@ -319,7 +343,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -334,7 +358,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -355,7 +379,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-cxN {
   width: 100%;
@@ -388,7 +412,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-cxN .table-cell-v5t {
@@ -405,7 +429,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-cxN .table-cell-QWr {
   box-sizing: border-box;
@@ -416,7 +440,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   flex-shrink: 0;
@@ -428,7 +452,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -451,7 +475,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-GxN {
   width: 100%;
@@ -485,7 +509,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-GxN .table-cell-oqp {
@@ -503,7 +527,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-GxN .table-cell-hAW {
   box-sizing: border-box;
@@ -514,7 +538,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -529,7 +553,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -550,7 +574,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-5qG {
   width: 100%;
@@ -583,7 +607,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-5qG .table-cell-mrW {
@@ -600,7 +624,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-5qG .table-cell-4Kp {
   box-sizing: border-box;
@@ -611,7 +635,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   flex-shrink: 0;
@@ -625,7 +649,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   flex-shrink: 0;
@@ -644,7 +668,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-jKU {
   width: 100%;
@@ -678,7 +702,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-jKU .table-cell-Gyc {
@@ -696,7 +720,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-jKU .table-cell-ktn {
   box-sizing: border-box;
@@ -707,7 +731,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -722,7 +746,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -743,7 +767,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-3WW {
   width: 100%;
@@ -776,7 +800,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-3WW .table-cell-L8E {
@@ -793,7 +817,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-3WW .table-cell-R9g {
   box-sizing: border-box;
@@ -804,7 +828,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   flex-shrink: 0;
@@ -818,7 +842,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   flex-shrink: 0;
@@ -837,7 +861,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-WaS {
   width: 100%;
@@ -871,7 +895,7 @@ body {
   font-weight: 500;
   line-height: 1.4285714286;
   color: #101728;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   flex-shrink: 0;
 }
 .item--3XL .table-Smk .content-Gkn .row-WaS .table-cell-eKG {
@@ -889,7 +913,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .table-Smk .content-Gkn .row-WaS .table-cell-i4E {
   box-sizing: border-box;
@@ -900,7 +924,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -915,7 +939,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
   white-space: nowrap;
   border: solid 0.1rem #eaecf0;
   background-color: #f8f9fb;
@@ -936,7 +960,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #667084;
-  font-family: Inter, 'Source Sans Pro';
+  font-family: Inter, "Source Sans Pro";
 }
 .item--3XL .footer-ULE {
   box-sizing: border-box;
@@ -955,7 +979,7 @@ body {
   font-weight: 400;
   line-height: 1.4285714286;
   color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
+  font-family: Commissioner, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -978,8 +1002,7 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
+  font-family: Commissioner, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -989,8 +1012,7 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
+  font-family: Commissioner, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -1000,18 +1022,26 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
+  font-family: Commissioner, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
+
+.items-zC6 a {
+  color: #1E1E1E;
+  transition: color .3s ease;
+}
+
+.items-zC6 a:hover {
+  color: #8378D5;
+}
+
 .item--3XL .footer-ULE .list-pYW .items-zC6 .link--YmL {
   display: flex;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
+  font-family: Commissioner, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -1033,7 +1063,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #141221;
-  font-family: Commissioner, 'Source Sans Pro';
+  font-family: Commissioner, "Source Sans Pro";
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -1044,28 +1074,48 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.item--3XL .footer-ULE .list-pYW .divfootermain-info-soc-GBY .list-HsL .item-margin-3bc {
+.item--3XL
+  .footer-ULE
+  .list-pYW
+  .divfootermain-info-soc-GBY
+  .list-HsL
+  .item-margin-3bc {
   width: 3.2rem;
   height: 3.2rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.item--3XL .footer-ULE .list-pYW .divfootermain-info-soc-GBY .list-HsL .item-margin-BC2 {
+.item--3XL
+  .footer-ULE
+  .list-pYW
+  .divfootermain-info-soc-GBY
+  .list-HsL
+  .item-margin-BC2 {
   width: 3.2rem;
   height: 3.2rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.item--3XL .footer-ULE .list-pYW .divfootermain-info-soc-GBY .list-HsL .item-margin-hw4 {
+.item--3XL
+  .footer-ULE
+  .list-pYW
+  .divfootermain-info-soc-GBY
+  .list-HsL
+  .item-margin-hw4 {
   width: 3.2rem;
   height: 3.2rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.item--3XL .footer-ULE .list-pYW .divfootermain-info-soc-GBY .list-HsL .item-TfL {
+.item--3XL
+  .footer-ULE
+  .list-pYW
+  .divfootermain-info-soc-GBY
+  .list-HsL
+  .item-TfL {
   width: 3.2rem;
   height: 3.2rem;
   object-fit: contain;
