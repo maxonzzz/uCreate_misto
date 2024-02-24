@@ -14,7 +14,9 @@ input {
 }
 body {
   width: 39rem;
-}.item--Nwg {
+  margin: 0 auto;
+}
+.item--Nwg {
   box-sizing: border-box;
   padding-top: 1rem;
   width: 100%;
@@ -154,6 +156,12 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+.text-GNA{
+  background-color: #ffffff;
+}
+#conf-policy, #conf-policy:visited{
+  color: #667084;
+}
 .item--Nwg .auto-group-vskl-57L .header-section-cd4 .content-Ymc .email-capture-EXx .input-field-base-MMg .input-5Hg .content-cHc .text-GNA {
   font-size: 1.6rem;
   font-weight: 400;
@@ -199,9 +207,17 @@ body {
   white-space: nowrap;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
   background-color: #8378d5;
   border-radius: 1rem;
+}
+.container-imt a, .container-imt a:visited, .container-8M4 a, .container-8M4 a:visited{
+  color: #6840c6;
+  text-decoration: none;
+}
+.auto-group-nv3c-jqG a, .auto-group-nv3c-jqG a:visited{
+  color: #ffffff;
+  text-decoration: none;
 }
 .item--Nwg .auto-group-vskl-57L .container-imt {
   margin: 0rem 3.1rem 6.4rem 1.6rem;
@@ -731,8 +747,6 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.item--Nwg .auto-group-vskl-57L .container-8M4 .pagination-26J .details-teJ .details-teJ-sub-0 {
-}
 .item--Nwg .auto-group-vskl-57L .container-8M4 .pagination-26J .details-teJ .details-teJ-sub-1 {
   font-size: 1.4rem;
   font-weight: 400;
@@ -908,4 +922,13 @@ body {
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
+}
+
+.button-4hL{
+  border: #8378d5;
+  transition: background-color 0.5s ease;
+}
+.button-4hL:hover{
+  background-color: #ffffff;
+  color: #8378d5;
 }

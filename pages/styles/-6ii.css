@@ -14,6 +14,7 @@ input {
 }
 body {
   width: 144rem;
+  margin: 0 auto;
 }.item--a1k {
   box-sizing: border-box;
   padding-top: 3rem;
@@ -1427,8 +1428,7 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.item--a1k .frame-Th8 .auto-group-l6na-Rdx .frame-sUz .frame-hD8 .frame-Tmx .item--RTt .item--RTt-sub-0 {
-}
+
 .item--a1k .frame-Th8 .auto-group-l6na-Rdx .frame-sUz .frame-hD8 .frame-Tmx .item--RTt .item--RTt-sub-1 {
   font-size: 1.6rem;
   font-weight: 400;
@@ -1447,8 +1447,7 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.item--a1k .frame-Th8 .auto-group-l6na-Rdx .frame-sUz .frame-hD8 .frame-Tmx .item--Khg .item--Khg-sub-0 {
-}
+
 .item--a1k .frame-Th8 .auto-group-l6na-Rdx .frame-sUz .frame-hD8 .frame-Tmx .item--Khg .item--Khg-sub-1 {
   font-size: 1.5rem;
   font-weight: 400;
@@ -1608,4 +1607,131 @@ body {
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
+}
+
+#spec-tel, #spec-tel:visited{
+  border: 2px solid #8378d5;
+  transition: background-color 0.3s, color 0.3s;
+}
+#spec-tel:hover{
+  background-color: white;
+  color: #8378d5;
+}
+#spec-tel a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+#spec-tel a:hover{
+  color: #8378d5;
+}
+.frame-oDp a, .frame-oDp a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+#show-photo{
+  text-decoration: none;
+  width: 12.21rem;
+  height: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.0769230769;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #8378d5;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5rem;
+  flex-shrink: 0;
+  transition: background-color 0.3s, color 0.3s;
+} 
+#show-photo:hover{
+  background-color: #8378d5;
+  color: #fff;
+}
+
+.item--f6N a, .item--f6N a:visited{
+  text-decoration: none;
+}
+
+.frame-jx2 button{
+  background-color: #8378d5;
+  border: solid 0.2rem #8378d5;
+  min-height: 34px;
+  max-height: 34px;
+  min-width: 122.1px;
+  max-width: 122.1px;
+}
+.frame-jx2 a, .frame-jx2 a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.list-L8v a, .list-L8v a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.frame-1-2Xx a, .frame-1-2Xx a:visited{
+  color:#1e1e1e;
+  text-decoration: none;
+}
+
+.nav-item{
+  position: relative;
+  background-color: transparent;
+  border: none;
+  padding: 16px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #fff;
+  height: 70px;
+}
+.nav-item::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease, left 0.3s ease, background-color 0.3s ease;
+}
+.nav-item:hover{
+  color: #8378d5;
+}
+.nav-item:hover::after{
+  width: calc(100% - 40px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #8378d5;
+}
+
+#order-button-1, #order-button-2, #order-button-3, #order-button-4, #order-button-5, #order-button-6, #order-button-7{
+  border: 2px solid #8378d5;
+  background-color: #8378d5;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+#order-button-1:hover, #order-button-2:hover, #order-button-3:hover, #order-button-4:hover, #order-button-5:hover, #order-button-6:hover, #order-button-7:hover{
+  background-color: white;
+  color: #8378d5;
+}
+
+#review-button{
+  border: 2px solid #6fd796;
+  transition: background-color 0.3s, color 0.3s;
+}
+#review-button:hover{
+background-color: white;
+color: #6fd796;
+}
+#bottom-link-1, #bottom-link-2, #bottom-link-3, #bottom-link-4{
+  transition: color 0.3s;
+}
+#bottom-link-1:hover, #bottom-link-2:hover, #bottom-link-3:hover, #bottom-link-4:hover{
+  color: #8378d5;
 }
