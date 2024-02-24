@@ -14,7 +14,28 @@ input {
 }
 body {
   width: 76.8rem;
-}.item-768-DTL {
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-iCE:hover {
+  color: #2ae772;
+}
+
+
+.items-W62 a{
+  color: #141221;
+  transition: all .3s ease;
+}
+
+
+.items-W62 a:hover {
+  color: #8378d5;
+}
+
+.item-768-DTL {
   box-sizing: border-box;
   padding-top: 1rem;
   width: 100%;
@@ -664,6 +685,7 @@ body {
   background-color: #6fd796;
   border-radius: 1rem;
   flex-shrink: 0;
+  transition: all .3s ease;
 }
 .item-768-DTL .divload-CCn .container-5Dp .cta-L9k .earnpng-akE {
   width: 58.3rem;
@@ -1059,7 +1081,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -1070,7 +1091,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -1081,7 +1101,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
@@ -1091,7 +1110,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.4285714286;
-  color: #141221;
   font-family: Commissioner, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
