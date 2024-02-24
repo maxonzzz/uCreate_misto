@@ -11,7 +11,32 @@ input {
 }
 body {
   width: 144rem;
-}.item--Pnv {
+}
+
+.frame-1-srW a {
+  position: relative;
+  color: #1E1E1E;
+  transition: color .3s linear;
+}
+.frame-1-srW a:hover {
+  color: #8378D5;
+}
+.frame-1-srW a::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  height: 6px;
+  width: 100%;
+  background: #8378D5;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transition: transform 0.2s linear;
+}
+.frame-1-srW a:hover::before {
+  transform: scaleX(1);
+}
+
+.item--Pnv {
   box-sizing: border-box;
   padding-top: 3rem;
   width: 100%;
